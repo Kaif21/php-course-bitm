@@ -1,0 +1,14 @@
+{
+  "name" : "php-project/php-project",
+  "type" : "project",
+  "description": "A Simple PHP Project",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app//"
+    },
+    "files": ["app/helpers/helpers.php"]
+  }
+}
